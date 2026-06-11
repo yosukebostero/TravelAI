@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import random
 from concurrent.futures import ThreadPoolExecutor
-import google.generativeai as genai
 
 # Importaciones de nuestros nuevos módulos limpios
 from services.geo import obtener_coordenadas
